@@ -1,0 +1,14 @@
+<div class="component">
+    <h1>random todo's fetch from json file </h1>
+    <div class="todos" *ngIf="randomTodo"> 
+        <h2>User ID: {{ randomTodo.userId }}</h2>
+        <p>ID: {{ randomTodo.id }}</p>
+        <h4>Title: {{ randomTodo.title }}</h4>
+        <h5>Completed: {{ randomTodo.completed }}</h5>
+        <button (click)="getRandomTodo()">Get New Todo</button>
+    </div>
+  </div>
+  
+  
+  
+  

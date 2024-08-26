@@ -1,0 +1,67 @@
+.container{
+    margin-block: 2em;
+    max-width: 1200px;
+    margin-inline: auto;
+    height: 70vh;
+}
+
+.container h2{
+    padding-block: 2em;
+}
+
+.container h1{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container .card{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .card > div{
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-inline: 2em;
+}
+
+.container .card button{
+    margin-block: 1em;
+    border: none;
+    padding: 1em 3em;
+    border-radius: 20px;    
+    align-items: center;
+}
+
+.container .card .btn{
+    text-align: center;
+    // border: 2px solid red;
+}
+
+.container .card .card2 button{
+    background: rgb(172, 172, 4);
+}
+
+.container .card .card2 button:hover{
+    background-color: rgb(149, 149, 149);
+}
+.container .card button:hover{
+    background-color: rgb(149, 149, 149);
+}
+
+.container .card h6{
+    text-align: center;
+    line-height: .5em;
+}
+
+.container .card h5{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.container .card P{
+    line-height: .5em;
+}

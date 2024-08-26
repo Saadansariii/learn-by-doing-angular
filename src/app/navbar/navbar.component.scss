@@ -1,0 +1,25 @@
+.container{
+    // display: flex;
+}
+.container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1em;
+
+}
+
+ul li  :hover{
+    color: black;
+}

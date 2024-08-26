@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    // border: 2px solid ;
+    background: gray;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.container .one{
+    width: 50%;
+
+}
+.container .one > div{
+    display: flex;
+    align-items: center;
+
+}
+
+.container .one .logo {
+    align-items: center;
+    margin-right: 1em;
+    padding: 1em;
+    border-radius:20px ;
+    background-color: rgb(186, 181, 181);
+    // border: 2px solid black;
+}
+
+
+
+.container .one .logo:hover{
+     background: rgb(149, 149, 149);;
+}
+
+
+.container .one .address p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    // width: 50%;
+
+}
+
+.container .one .address span{
+
+    font-weight: 500;
+    font-size: 1em;
+
+}
+
+.container .two{
+    width: 50%;
+
+}
+
+.container .two .logo-connect .svgs{
+    display: flex;
+}
+
+.container .two .logo-connect .svgs > div{
+    background-color: rgb(186, 181, 181);
+    padding: 1em;
+    border-radius: 20px;
+    margin-right: 1em;
+}
+
+.container .two .logo-connect .svgs > div:hover{
+    background: rgb(149, 149, 149);
+}
+
